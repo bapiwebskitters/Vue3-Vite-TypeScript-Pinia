@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "composite": true, // Enable composite project support
+    "target": "ES2020", // Specify ECMAScript target version
+    "useDefineForClassFields": true, // Use 'define' for class fields in ES
+    "module": "ESNext", // Specify module code generation
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ], // Specify library files to be included
+    "skipLibCheck": true, // Skip type checking of declaration files
+    /* Bundler mode */
+    "moduleResolution": "bundler", // Use bundler module resolution
+    "isolatedModules": true, // Ensure each file can be transpiled independently
+    "moduleDetection": "force", // Force module detection
+    "jsx": "preserve", // Preserve JSX in output for further processing
+    /* Linting */
+    "strict": true, // Enable all strict type-checking options
+    "noUnusedLocals": true, // Raise errors on unused local variables
+    "noUnusedParameters": true, // Raise errors on unused function parameters
+    "noFallthroughCasesInSwitch": true // Report errors for fallthrough cases in switch statements
+  },
+  "include": [
+    "src/**/*.ts", // Include TypeScript files
+    "src/**/*.tsx", // Include TSX files
+    "src/**/*.vue" // Include Vue files
+  ]
+}

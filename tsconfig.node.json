@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "composite": true, // Enable composite project support
+    "target": "ES2022", // Specify ECMAScript target version
+    "lib": [
+      "ES2023"
+    ], // Specify library files to be included
+    "module": "ESNext", // Specify module code generation
+    "skipLibCheck": true, // Skip type checking of declaration files
+    /* Bundler mode */
+    "moduleResolution": "bundler", // Use bundler module resolution
+    "isolatedModules": true, // Ensure each file can be transpiled independently
+    "moduleDetection": "force", // Force module detection
+    /* Linting */
+    "strict": true, // Enable all strict type-checking options
+    "noUnusedLocals": true, // Raise errors on unused local variables
+    "noUnusedParameters": true, // Raise errors on unused function parameters
+    "noFallthroughCasesInSwitch": true // Report errors for fallthrough cases in switch statements
+  },
+  "include": [
+    "vite.config.ts"
+  ] // Include Vite configuration file
+}
