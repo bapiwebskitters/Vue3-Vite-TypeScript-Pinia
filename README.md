@@ -8,6 +8,9 @@ This is a Vue 3 application built with TypeScript, utilizing Vite as a build too
 
 ### Project Structure
 
+```plaintext
+project-root/
+│
 ├── public
 ├── src
 │   ├── assets            # Static assets
@@ -50,6 +53,7 @@ This is a Vue 3 application built with TypeScript, utilizing Vite as a build too
 ├── tsconfig.node.json
 ├── vite.config.ts
 ├── yarn.lock
+```
 
 ### Stack
 
